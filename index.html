@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7fa" />
+    <meta
+      name="description"
+      content="Thoughtfully chosen technology for everyday life. Explore phones, computers, audio, and accessories at Forme."
+    />
+    <title>Forme — Thoughtful technology, made simple</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="announcement">
+      A little something extra: complimentary shipping on every order<span>·</span>
+      <span>Thoughtfully picked, thoughtfully packed.</span>
+    </div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#" aria-label="Forme home">Techanologia<span class="brand-dot">.</span></a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#shop">Shop all</a>
+          <a href="#shop" data-category-link="Audio">Audio</a>
+          <a href="#about">Our approach</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button cart-trigger" id="open-cart" aria-label="Open shopping bag">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 8h14l1 12H4L5 8Z" />
+              <path d="M9 9V6a3 3 0 0 1 6 0v3" />
+            </svg>
+            <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-width">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow">A more considered collection</span>
+          <h1 id="hero-title">Good tech.<br />Better <em>everyday.</em></h1>
+          <p>
+            The things you use every day should feel a little more special. Find your next
+            just-right something, right here.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#shop">
+              Find your next favorite
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M3 10h13M11 5l5 5-5 5" />
+              </svg>
+            </a>
+            <a class="text-link" href="#about">
+              Why Techanologia?
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M3 10h13M11 5l5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img
+            class="hero-image"
+            src="https://plus.unsplash.com/premium_photo-1667490646824-405eaeb20019?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHVzaW5nJTIwYSUyMHBob25lfGVufDB8fDB8fHww"
+            alt="Someone working on a laptop, hands on the keyboard"
+            fetchpriority="high"
+          />
+        </div>
+      </section>
+
+      <section class="assurances" id="about" aria-label="The Forme difference">
+        <div class="assurance">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 7h11v10H3zM14 10h4l3 3v4h-7" />
+            <circle cx="7.5" cy="18" r="2" />
+            <circle cx="17.5" cy="18" r="2" />
+          </svg>
+          <div><strong>Free, easy shipping</strong><span>A little treat, on us</span></div>
+        </div>
+        <div class="assurance">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m12 3 8 4v5c0 4.8-3.5 7.7-8 9-4.5-1.3-8-4.2-8-9V7l8-4Z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          <div><strong>A little peace of mind</strong><span>Two-year warranty, always</span></div>
+        </div>
+        <div class="assurance">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 11.5a8 8 0 0 1-8 8 8.8 8.8 0 0 1-3.6-.8L4 20l1.3-3.5A8 8 0 1 1 20 11.5Z" />
+            <path d="M9 10a3 3 0 0 0 5 2l1-1" />
+          </svg>
+          <div><strong>Here if you need us</strong><span>Real, friendly humans</span></div>
+        </div>
+        <div class="assurance">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 21s-8-4.7-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.3-8 11-8 11Z" />
+          </svg>
+          <div><strong>Picked with a purpose</strong><span>Less stuff, better stuff</span></div>
+        </div>
+      </section>
+
+      <section id="shop" aria-labelledby="shop-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">The good stuff</div>
+            <h2 id="shop-title">Everyday, <em>elevated.</em></h2>
+            <p class="section-note">Useful things, chosen for the details that make a difference.</p>
+          </div>
+          <a class="text-link" href="#shop">
+            Explore the collection
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M3 10h13M11 5l5 5-5 5" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="browse-row">
+          <div class="category-list" role="group" aria-label="Filter products by category">
+            <button class="category-chip is-active" data-category="All">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1" /><rect x="9" y="2" width="5" height="5" rx="1" /><rect x="2" y="9" width="5" height="5" rx="1" /><rect x="9" y="9" width="5" height="5" rx="1" /></svg>
+              All things
+            </button>
+            <button class="category-chip" data-category="Phones">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="4" y="1.5" width="8" height="13" rx="2" /><path d="M7 12h2" /></svg>
+              Phones
+            </button>
+            <button class="category-chip" data-category="Computers">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="12" height="9" rx="1" /><path d="M1 14h14M6 11l-.5 3m4.5-3 .5 3" /></svg>
+              Computers
+            </button>
+            <button class="category-chip" data-category="Audio">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 9V7a5 5 0 0 1 10 0v2M3 8H2v4h2V8H3Zm10 0h1v4h-2V8h1Z" /></svg>
+              Audio
+            </button>
+            <button class="category-chip" data-category="Wearables">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="4" y="4" width="8" height="8" rx="2" /><path d="M6 4V1.5h4V4m-4 8v2.5h4V12" /></svg>
+              Wearables
+            </button>
+          </div>
+          <label class="search-box">
+            <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="8.8" cy="8.8" r="5.6" />
+              <path d="m13 13 4 4" />
+            </svg>
+            <input id="product-search" type="search" placeholder="Find something good..." autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <article
+            class="product-card"
+            data-category="Phones"
+            data-name="iPhone 15"
+            data-price="799"
+            data-image="https://images.unsplash.com/photo-1571053172280-f955a42c3554?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1571053172280-f955a42c3554?auto=format&fit=crop&w=800&h=800&q=85" alt="Silver smartphone photographed against a white background" loading="lazy" />
+              <span class="product-badge">A little favorite</span>
+              <button class="product-save" aria-label="Save iPhone 15" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Phones</div>
+              <div class="product-name-row"><h3 class="product-name">iPhone 15</h3><span class="product-price">$799</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#d8c5c5"></span><span class="color-dot" style="background:#c7cbb9"></span><span class="color-dot" style="background:#e8e5dc"></span></div><span class="product-rating"><strong>★</strong> 4.9 (128)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Computers"
+            data-name="MacBook Air 13″"
+            data-price="1099"
+            data-image="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&h=800&q=85" alt="Silver laptop photographed on a white tabletop" loading="lazy" />
+              <span class="product-badge">Thoughtful pick</span>
+              <button class="product-save" aria-label="Save MacBook Air 13 inch" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Computers</div>
+              <div class="product-name-row"><h3 class="product-name">MacBook Air 13″</h3><span class="product-price">$1,099</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#cbc7bd"></span><span class="color-dot" style="background:#aaaeb7"></span><span class="color-dot" style="background:#b6c0ae"></span></div><span class="product-rating"><strong>★</strong> 4.9 (86)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Audio"
+            data-name="QuietComfort Headphones"
+            data-price="349"
+            data-image="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&h=800&q=85" alt="Black wireless headphones arranged on a white surface" loading="lazy" />
+              <span class="product-badge">Everyday essential</span>
+              <button class="product-save" aria-label="Save QuietComfort Headphones" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Audio</div>
+              <div class="product-name-row"><h3 class="product-name">QuietComfort Headphones</h3><span class="product-price">$349</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#d8d2c6"></span><span class="color-dot" style="background:#343b36"></span><span class="color-dot" style="background:#c0a68d"></span></div><span class="product-rating"><strong>★</strong> 4.8 (214)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Wearables"
+            data-name="Apple Watch Series 9"
+            data-price="399"
+            data-image="https://images.unsplash.com/photo-1594619272803-932ee1b5a0d9?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1594619272803-932ee1b5a0d9?auto=format&fit=crop&w=800&h=800&q=85" alt="Digital smartwatch on a bright, neutral background" loading="lazy" />
+              <span class="product-badge">Back in stock</span>
+              <button class="product-save" aria-label="Save Apple Watch Series 9" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Wearables</div>
+              <div class="product-name-row"><h3 class="product-name">Apple Watch Series 9</h3><span class="product-price">$399</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#d8d0c4"></span><span class="color-dot" style="background:#969e91"></span><span class="color-dot" style="background:#bcbec4"></span></div><span class="product-rating"><strong>★</strong> 4.8 (92)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Audio"
+            data-name="AirPods Pro (2nd gen)"
+            data-price="249"
+            data-image="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=800&h=800&q=85" alt="Wireless earbuds and charging case on a light background" loading="lazy" />
+              <span class="product-badge">A small joy</span>
+              <button class="product-save" aria-label="Save AirPods Pro second generation" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Audio</div>
+              <div class="product-name-row"><h3 class="product-name">AirPods Pro (2nd gen)</h3><span class="product-price">$249</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#f0efeb"></span></div><span class="product-rating"><strong>★</strong> 4.9 (341)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Phones"
+            data-name="Pixel 8"
+            data-price="699"
+            data-image="https://images.unsplash.com/photo-1693822845595-862bacc31cf9?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1693822845595-862bacc31cf9?auto=format&fit=crop&w=800&h=800&q=85" alt="Smartphone photographed on a white surface" loading="lazy" />
+              <span class="product-badge">New arrival</span>
+              <button class="product-save" aria-label="Save Pixel 8" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Phones</div>
+              <div class="product-name-row"><h3 class="product-name">Pixel 8</h3><span class="product-price">$699</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#d7d2bf"></span><span class="color-dot" style="background:#afb7a8"></span><span class="color-dot" style="background:#20231f"></span></div><span class="product-rating"><strong>★</strong> 4.8 (104)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Computers"
+            data-name="iPad Air"
+            data-price="599"
+            data-image="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&h=800&q=85" alt="Tablet photographed against a light background" loading="lazy" />
+              <span class="product-badge">Made for making</span>
+              <button class="product-save" aria-label="Save iPad Air" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Computers</div>
+              <div class="product-name-row"><h3 class="product-name">iPad Air</h3><span class="product-price">$599</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#c9c6bd"></span><span class="color-dot" style="background:#adafaa"></span><span class="color-dot" style="background:#b6a9bb"></span></div><span class="product-rating"><strong>★</strong> 4.9 (73)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <article
+            class="product-card"
+            data-category="Audio"
+            data-name="Portable Bluetooth Speaker"
+            data-price="129"
+            data-image="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&h=800&q=85"
+          >
+            <div class="product-media">
+              <img class="product-image" src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&h=800&q=85" alt="Portable speaker arranged on a light neutral surface" loading="lazy" />
+              <span class="product-badge">Good things, loud</span>
+              <button class="product-save" aria-label="Save Portable Bluetooth Speaker" aria-pressed="false">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16.5 4.5a4 4 0 0 0-5.7 0L10 5.3l-.8-.8a4 4 0 0 0-5.7 5.7l.8.8 5.7 5.5 5.7-5.5.8-.8a4 4 0 0 0 0-5.7Z" /></svg>
+              </button>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Audio</div>
+              <div class="product-name-row"><h3 class="product-name">Portable Bluetooth Speaker</h3><span class="product-price">$129</span></div>
+              <div class="product-meta-row"><div class="product-colors" aria-label="Available colors"><span class="color-dot" style="background:#c6bba7"></span><span class="color-dot" style="background:#656b5e"></span><span class="color-dot" style="background:#343b36"></span></div><span class="product-rating"><strong>★</strong> 4.7 (58)</span></div>
+              <button class="add-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" /></svg>Add to bag</button>
+            </div>
+          </article>
+
+          <div class="empty-state" id="empty-state" role="status">
+            <strong>Nothing here just yet.</strong>
+            <span>Try another search or explore a different category.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom-cta">
+        <div class="bottom-cta-copy">
+          <div class="section-kicker">The Forme feeling</div>
+          <h2>Good things, from the get-go.</h2>
+          <p>Thoughtful picks. No guesswork. And a real person here if you need one.</p>
+        </div>
+        <a class="primary-button" href="#shop">
+          Come have a look
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5" /></svg>
+        </a>
+      </section>
+
+      <section class="newsletter" aria-labelledby="newsletter-title">
+        <div>
+          <h2 id="newsletter-title">A little note from us, now and then.</h2>
+          <p>New finds, good ideas. Never just noise.</p>
+          <div class="newsletter-message" id="newsletter-message" aria-live="polite"></div>
+        </div>
+        <form class="newsletter-form" id="newsletter-form">
+          <label for="newsletter-email" class="visually-hidden" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">Email address</label>
+          <input id="newsletter-email" type="email" placeholder="Your email address" required />
+          <button type="submit">Count me in <span aria-hidden="true">→</span></button>
+        </form>
+      </section>
+
+      <footer class="site-footer">
+        <a class="footer-brand" href="#" aria-label="Forme home">Techanologia<span class="brand-dot">.</span></a>
+        <span>Good tech for the way you live. © <span id="current-year"></span> Techanologia.</span>
+        <div class="footer-links"><a class="footer-link" href="#about">About</a><a class="footer-link" href="#shop">Shipping</a><a class="footer-link" href="#shop">Get in touch</a></div>
+      </footer>
+    </main>
+
+    <div class="cart-overlay" id="cart-overlay" aria-hidden="true"></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping bag" aria-hidden="true">
+      <div class="cart-drawer-head">
+        <h2>Your little bag <span id="cart-heading-count">(0)</span></h2>
+        <button class="icon-button" id="close-cart" aria-label="Close shopping bag">
+          <svg class="close-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" /></svg>
+        </button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-drawer-foot">
+        <div class="cart-subtotal"><span>Subtotal</span><span id="cart-subtotal">$0</span></div>
+        <button class="primary-button" id="checkout-button" style="width:100%">Continue to checkout <span aria-hidden="true">→</span></button>
+        <p class="cart-disclaimer">Shipping and taxes calculated at checkout. Your order ships free, always.</p>
+      </div>
+    </aside>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./scripts.js">
+      
+    </script>
+  </body>
+</html>
